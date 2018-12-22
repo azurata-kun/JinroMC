@@ -1,0 +1,29 @@
+# ${project.name}
+# Version: ${project.version}
+# Coded by Azurata
+
+# ワンナイト人狼にするか
+onenight: false
+
+# 役職欠けの設定
+kake: true
+
+# ゲームを行うワールドの名前
+playing-world: "world"
+
+# 各役職の人数(role-optionがcustomのときのみ動作します)
+# werewolf: 人狼
+# madman: 狂人
+# fox: 妖狐
+# seer: 占い師
+# psychic: 霊能者
+# knight: 騎士
+# villager: 村人
+role:
+ werewolf: 1
+ madman: 0
+ fox: 0
+ seer: 1
+ psychic: 0
+ knight: 0
+ villager: 3

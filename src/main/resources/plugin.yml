@@ -1,0 +1,33 @@
+name: JinroMC
+main: jp.dip.azurata.jinromc.JinroMC
+version: ${project.version}
+commands:
+ jinro:
+  description: JinroMCの管理用コマンドです
+  permission: jinromc.admin
+  permission-message: 権限を所持していないため、このコマンドを実行できません
+ shugeki:
+  description: JinroMCの襲撃用コマンドです
+  permission: jinromc.player
+  permission-message: 権限を所持していないため、このコマンドを実行できません
+ uranai:
+  description: JinroMCの占い用コマンドです
+  permission: jinromc.player
+  permission-message: 権限を所持していないため、このコマンドを実行できません
+ goei:
+  description: JinroMCのご栄養コマンドです
+  permission: jinromc.player
+  permission-message: 権限を所持していないため、このコマンドを実行できません
+permissions:
+ jinromc.*:
+  description: JinroMCの全権限
+  default: false
+  children:
+   jinromc.player: true
+   jinromc.admin: true
+ jinromc.player:
+  description: JinroMCのプレイヤー用権限
+  default: true
+ jinromc.admin:
+  description: JinroMCの管理者用権限
+  default: op
