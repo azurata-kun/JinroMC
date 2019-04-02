@@ -12,7 +12,10 @@ public final class Seer extends JinroPlayer {
 		super(player);
 		super.role = JinroRole.seer;
 	}
-
+	/**
+	 * 引数に指定されたプレイヤーを占い、結果をプレイヤーに通知
+	 * @param player 占う対象のプレイヤー
+	 */
 	public void uranai(JinroPlayer player) {
 		if(JinroMC.time == GameTime.Night)  {
 			if(!super.turnEnd) {
