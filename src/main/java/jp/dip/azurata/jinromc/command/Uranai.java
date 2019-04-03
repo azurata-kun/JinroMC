@@ -32,4 +32,5 @@ public class Uranai implements CommandExecutor {
     else
       senderJ.sendMessage("あなたは占い師ではないため、このコマンドを実行できません");
     return true;
+  }
 }
