@@ -54,7 +54,6 @@ public class JinroPlayer {
 	public void setVote(Player vote) {
 		this.vote = vote;
 		setTurnEnd(true);
-		JinroMC.api.judgeGoToNextTurn();
 	}
 
 	/**
