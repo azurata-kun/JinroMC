@@ -15,7 +15,7 @@ commands:
   permission: jinromc.player
   permission-message: 権限を所持していないため、このコマンドを実行できません
  goei:
-  description: JinroMCのご栄養コマンドです
+  description: JinroMCの護衛用コマンドです
   permission: jinromc.player
   permission-message: 権限を所持していないため、このコマンドを実行できません
 permissions:
